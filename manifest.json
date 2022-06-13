@@ -1,0 +1,16 @@
+{
+    "name": "my-extension",
+    "description": "an app which displays weather",
+    "version": "0.1",
+    "manifest_version": 2,
+    "permissions": ["geolocation"],
+   
+    "browser_action": {
+      
+      "default_title": "Does a thing when you do a thing",
+      "default_icon":  "temperature.png",
+        "default_popup": "popup.html"
+      
+    }
+   }
+   
